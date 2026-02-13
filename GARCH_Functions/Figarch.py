@@ -1,9 +1,3 @@
-"""
-Volatility models module.
-
-Thin wrappers around arch library for GARCH and FIGARCH fitting.
-"""
-
 from arch import arch_model
 from arch.univariate.base import ARCHModelResult
 import pandas as pd
