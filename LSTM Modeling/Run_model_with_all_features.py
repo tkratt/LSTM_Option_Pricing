@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 Modifications:
 Scale before splitting
 Fill NaN macro data with previous available data, NaN return data with 0
-Annulized vol% calculated without multiplying by 100
+Annualized vol% calculated without multiplying by 100
 Softplus for output layer
 """
 # ---------------------------------------------------------
