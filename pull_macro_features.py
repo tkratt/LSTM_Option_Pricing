@@ -9,7 +9,7 @@ OUTPUT_PATH = os.path.join(SCRIPT_DIR, "Data", "Assets", "macro_features.csv")
 
 START = "2006-01-01"
 END = "2025-12-31"
-FRED_API_KEY = "3208e5d6a5cff74ab3954a73f1f12e5b"
+FRED_API_KEY = "API_KEY"
 
 def fetch_fred(series_id):
     url = "https://api.stlouisfed.org/fred/series/observations"
