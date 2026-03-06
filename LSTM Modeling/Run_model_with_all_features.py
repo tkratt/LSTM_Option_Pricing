@@ -15,9 +15,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 """
 Modifications:
-Split before scaling
-Fill NaN macro data with previous available data, NaN return data with 0
-Annualized vol% calculated without multiplying by 100
+
 Softplus for output layer
 """
 # ---------------------------------------------------------
@@ -172,7 +170,7 @@ for j, name in enumerate(series_names):
 
     print(
         f"MSE: {mse:.7f} | RMSE: {rmse:.7f} | MAE: {mae:.7f} | "
-        f"QLIKE: {qlike:.4f} | AnnVol MAE: {ann_vol_mae:.2f}%"
+        f"QLIKE: {qlike:.4f} | AnnVol MAE: {ann_vol_mae:.2f}"
     )
 
     results.append([name, mse, rmse, mae, qlike, ann_vol_mae])
