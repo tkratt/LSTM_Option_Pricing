@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 """
 Modifications:
-Scale after splitting
+Spliy after scaling
 Fill NaN macro data with previous available data, NaN return data with 0
 Annualized vol% calculated without multiplying by 100
 Softplus for output layer
