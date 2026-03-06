@@ -28,8 +28,6 @@ df = pd.read_csv(file_path)
 
 df = df.sort_values("Date").reset_index(drop=True)
 
-# No forward fill; just drop missing rows
-df = df.dropna().reset_index(drop=True)
 
 # ---------------------------------------------------------
 # Define Feature Columns and Target Columns
