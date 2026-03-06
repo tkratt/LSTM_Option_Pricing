@@ -13,11 +13,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import Huber
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
-"""
-Modifications:
 
-Softplus for output layer
-"""
 # ---------------------------------------------------------
 # Load and Clean Data
 # ---------------------------------------------------------
